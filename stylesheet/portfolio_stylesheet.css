@@ -82,7 +82,7 @@
     padding: 10px;
     padding-top: 3.5%;
     height: 450px;
-    background-color: #4d4d4d;
+    background-color: #f2f2f2;
 }
 
 .row::after {
@@ -180,25 +180,23 @@ form {
     padding: 20px;
 }
 
-.center:hover {
-    transition: transform 2s;
-    transform: scale(1.1)
-}
 
-p:hover {
-    transition: transform 1s;
-    transform: scale(1.01);
-}
+
 
 h1:hover {
     color: black;
     font-weight: normal;
+    transition: 0.5s;
 }
 
 img:hover {
     filter: grayscale(5%);
+    transition: 1s;
+}
+
+.projectImg:hover {
     transition: transform 1s;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 footer {
