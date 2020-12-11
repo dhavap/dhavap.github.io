@@ -556,6 +556,7 @@ pre code {
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+    max-width: 540px;
   }
 }
 @media (min-width: 768px) {
@@ -565,12 +566,14 @@ pre code {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 100%;
+    /*max-width: 960px;*/
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 100%;
+    /*max-width: 1140px;*/
   }
 }
 .row {
@@ -10114,6 +10117,7 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  height: 100vh;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10295,3 +10299,17 @@ form .row:first-child .floating-label-form-group {
   color: #1abc9c;
   opacity: 1;
 }*/
+
+.row .display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+    flex:1;
+
+}
