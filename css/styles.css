@@ -10215,7 +10215,11 @@ form .row:first-child .floating-label-form-group {
   max-width: 530px;
   margin: auto auto 1rem;
 }
-
+@media (max-width: 992px) {
+  .portfolio-item{
+  position: relative;
+  }
+}
 
 .portfolio-item .caption {
   display: flex;
