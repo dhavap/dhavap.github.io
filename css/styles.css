@@ -10210,7 +10210,7 @@ form .row:first-child .floating-label-form-group {
 
 .portfolio-item {
   display: block;
-  position: relative;
+  /*position: relative;*/
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
@@ -10259,7 +10259,7 @@ form .row:first-child .floating-label-form-group {
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 20%;
   }
   .portfolio-item img {
     transition: -webkit-clip-path 0.25s ease-out;
